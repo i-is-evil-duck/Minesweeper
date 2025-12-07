@@ -1,0 +1,25 @@
+[project]
+name = "minesweeper"
+version = "0.0.1"
+
+requires-python = ">=3.12"
+dependencies = [
+    "pygame-ce              == 2.5.6"
+]
+
+[tool.ruff]
+line-length = 88
+
+[tool.ruff.lint]
+select = ["ALL"]
+
+ignore = ["E501", "D100"]
+
+fixable = []
+unfixable = []
+
+[tool.ruff.format]
+quote-style = "double"
+indent-style = "space"
+line-ending = "auto"
+docstring-code-line-length = 88
